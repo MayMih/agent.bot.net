@@ -13,7 +13,7 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru agent;vk teams;agent bot;</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>agent.bot.net</PackageId>
+    <PackageId>magent.bot.net</PackageId>
     <Authors>Idan Rubin, Mikhail Mayurov</Authors>
     <Product>Agent.Bot</Product>
     <PackageReleaseNotes>* Fix file receive bug</PackageReleaseNotes>

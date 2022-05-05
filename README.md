@@ -1,4 +1,4 @@
-[![package](https://img.shields.io/badge/Agent.Bot-v1.4.8-blue)](https://www.nuget.org/packages/Agent.Bot)
+[![package](https://img.shields.io/badge/Agent.Bot-v1.4.8-blue)](https://www.nuget.org/packages/MAgent.Bot.Net)
 [![icq chat](https://img.shields.io/badge/Community-Chat-purple)](https://icq.im/bots_dotnet)
 [![license](https://img.shields.io/badge/license-MIT-orange)](https://github.com/idan-rubin/Agent.Bot.net/blob/master/LICENSE)
 [![Bot API Version](https://img.shields.io/badge/Bot%20API%20Version-11.05.2021-ff69b4)](https://agent.mail.ru/botapi/?lang=en#/self/get_self_get)
@@ -58,6 +58,6 @@ Let's make .Net the #1 client for ICQ bots!
 
 [Idan Rubin]: https://github.com/idan-rubin
 [ICQ bot]: https://github.com/idan-rubin/ICQ.Bot.net
-[nuget.org]: https://www.nuget.org/packages/Agent.Bot
+[nuget.org]: https://www.nuget.org/packages/MAgent.Bot.Net
 [Telegram.Bot]: https://github.com/TelegramBots/Telegram.Bot
 [ICQTranslatorBot]: https://github.com/idan-rubin/ICQTranslatorBot
