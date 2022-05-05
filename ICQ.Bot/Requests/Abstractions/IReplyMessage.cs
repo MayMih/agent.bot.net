@@ -1,4 +1,4 @@
-﻿namespace ICQ.Bot.Requests.Abstractions
+﻿namespace Agent.Bot.Requests.Abstractions
 {
     public interface IReplyMessage
     {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace ICQ.Bot.Types.Enums
+namespace Agent.Bot.Types.Enums
 {
     [JsonConverter(typeof(StringEnumConverter))]
     public enum ParseMode

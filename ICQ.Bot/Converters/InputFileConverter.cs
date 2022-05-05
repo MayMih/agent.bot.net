@@ -3,11 +3,11 @@ using System.IO;
 using System.Reflection;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using ICQ.Bot.Types;
-using ICQ.Bot.Types.Enums;
-using ICQ.Bot.Types.InputFiles;
+using Agent.Bot.Types;
+using Agent.Bot.Types.Enums;
+using Agent.Bot.Types.InputFiles;
 
-namespace ICQ.Bot.Converters
+namespace Agent.Bot.Converters
 {
     internal class InputFileConverter : JsonConverter
     {

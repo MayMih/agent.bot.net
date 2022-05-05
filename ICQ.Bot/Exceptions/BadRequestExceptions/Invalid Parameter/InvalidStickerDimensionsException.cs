@@ -1,5 +1,5 @@
 ﻿// ReSharper disable once CheckNamespace
-namespace ICQ.Bot.Exceptions
+namespace Agent.Bot.Exceptions
 {
     /// <summary>
     /// The exception that is thrown when the sticker set is invalid

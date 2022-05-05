@@ -1,7 +1,7 @@
 ﻿using System;
-using ICQ.Bot.Types;
+using Agent.Bot.Types;
 
-namespace ICQ.Bot.Exceptions
+namespace Agent.Bot.Exceptions
 {
     public class ApiRequestException : Exception
     {

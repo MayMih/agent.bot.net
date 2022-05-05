@@ -6,20 +6,20 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 
-using ICQ.Bot.Args;
-using ICQ.Bot.Converters;
-using ICQ.Bot.Exceptions;
-using ICQ.Bot.Requests;
-using ICQ.Bot.Requests.Abstractions;
-using ICQ.Bot.Types;
-using ICQ.Bot.Types.Enums;
-using ICQ.Bot.Types.InputFiles;
-using ICQ.Bot.Types.ReplyMarkups;
+using Agent.Bot.Args;
+using Agent.Bot.Converters;
+using Agent.Bot.Exceptions;
+using Agent.Bot.Requests;
+using Agent.Bot.Requests.Abstractions;
+using Agent.Bot.Types;
+using Agent.Bot.Types.Enums;
+using Agent.Bot.Types.InputFiles;
+using Agent.Bot.Types.ReplyMarkups;
 
 using Newtonsoft.Json;
 
 
-namespace ICQ.Bot
+namespace Agent.Bot
 {
     //https://stackoverflow.com/questions/3526701/how-to-generate-a-class-from-an-interface
     //https://icq.com/botapi/#/files/get_files_getInfo

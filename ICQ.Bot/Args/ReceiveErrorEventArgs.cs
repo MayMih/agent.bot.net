@@ -1,7 +1,7 @@
 ﻿using System;
-using ICQ.Bot.Exceptions;
+using Agent.Bot.Exceptions;
 
-namespace ICQ.Bot.Args
+namespace Agent.Bot.Args
 {
     public class ReceiveErrorEventArgs : EventArgs
     {

@@ -1,14 +1,14 @@
-﻿using ICQ.Bot.Args;
-using ICQ.Bot.Types;
-using ICQ.Bot.Types.Enums;
-using ICQ.Bot.Types.InputFiles;
-using ICQ.Bot.Types.ReplyMarkups;
+﻿using Agent.Bot.Args;
+using Agent.Bot.Types;
+using Agent.Bot.Types.Enums;
+using Agent.Bot.Types.InputFiles;
+using Agent.Bot.Types.ReplyMarkups;
 using System;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ICQ.Bot
+namespace Agent.Bot
 {
     /// <summary>
     /// A client interface to use the ICQ Bot API

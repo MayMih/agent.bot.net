@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ICQ.Bot.Exceptions
+namespace Agent.Bot.Exceptions
 {
     internal interface IApiExceptionInfo<out T>
         where T : ApiRequestException

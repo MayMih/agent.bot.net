@@ -1,9 +1,9 @@
 ﻿using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using ICQ.Bot.Types.Enums;
+using Agent.Bot.Types.Enums;
 
-namespace ICQ.Bot.Converters
+namespace Agent.Bot.Converters
 {
     internal class MessageEntityTypeConverter : JsonConverter
     {

@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace ICQ.Bot.Types.ReplyMarkups
+namespace Agent.Bot.Types.ReplyMarkups
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class InlineKeyboardButton : IKeyboardButton

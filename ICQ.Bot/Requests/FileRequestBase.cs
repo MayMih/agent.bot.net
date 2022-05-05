@@ -1,14 +1,14 @@
-﻿using ICQ.Bot.Helpers;
-using ICQ.Bot.Types;
-using ICQ.Bot.Types.Enums;
-using ICQ.Bot.Types.InputFiles;
-using ICQ.Bot.Types.ReplyMarkups;
+﻿using Agent.Bot.Helpers;
+using Agent.Bot.Types;
+using Agent.Bot.Types.Enums;
+using Agent.Bot.Types.InputFiles;
+using Agent.Bot.Types.ReplyMarkups;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System;
 using System.Net.Http;
 
-namespace ICQ.Bot.Requests
+namespace Agent.Bot.Requests
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public abstract class FileRequestBase<TResponse> : RequestBase<TResponse>

@@ -1,7 +1,7 @@
 ﻿using System;
-using ICQ.Bot.Types;
+using Agent.Bot.Types;
 
-namespace ICQ.Bot.Args
+namespace Agent.Bot.Args
 {
     public class UpdateEventArgs : EventArgs
     {

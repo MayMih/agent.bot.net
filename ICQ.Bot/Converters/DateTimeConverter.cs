@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 
-namespace ICQ.Bot.Converters
+namespace Agent.Bot.Converters
 {
     public class DateTimeConverter : Newtonsoft.Json.JsonConverter
     {

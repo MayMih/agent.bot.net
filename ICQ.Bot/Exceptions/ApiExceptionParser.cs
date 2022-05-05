@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
-using ICQ.Bot.Types;
+using Agent.Bot.Types;
 
-namespace ICQ.Bot.Exceptions
+namespace Agent.Bot.Exceptions
 {
     internal static class ApiExceptionParser
     {

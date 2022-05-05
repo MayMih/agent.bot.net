@@ -1,11 +1,11 @@
-using ICQ.Bot.Types;
+using Agent.Bot.Types;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Collections.Specialized;
 using System.Net.Http;
 using System.Text;
 
-namespace ICQ.Bot.Requests
+namespace Agent.Bot.Requests
 {
     [JsonObject(NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class GetUpdatesRequest : RequestBase<Updates>

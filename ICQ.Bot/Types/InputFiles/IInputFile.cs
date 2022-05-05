@@ -1,6 +1,6 @@
-﻿using ICQ.Bot.Types.Enums;
+﻿using Agent.Bot.Types.Enums;
 
-namespace ICQ.Bot.Types
+namespace Agent.Bot.Types
 {
     public interface IInputFile
     {

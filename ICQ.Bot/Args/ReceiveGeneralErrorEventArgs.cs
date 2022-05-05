@@ -1,6 +1,6 @@
 using System;
 
-namespace ICQ.Bot.Args
+namespace Agent.Bot.Args
 {
     public class ReceiveGeneralErrorEventArgs : EventArgs
     {

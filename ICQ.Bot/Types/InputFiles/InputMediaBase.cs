@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using ICQ.Bot.Types.Enums;
+using Agent.Bot.Types.Enums;
 
-namespace ICQ.Bot.Types
+namespace Agent.Bot.Types
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public abstract class InputMediaBase : IInputMedia

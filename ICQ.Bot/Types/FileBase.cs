@@ -1,7 +1,8 @@
 ﻿using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace ICQ.Bot.Types
+
+namespace Agent.Bot.Types
 {
     /// <summary>
     /// File info wrapper base

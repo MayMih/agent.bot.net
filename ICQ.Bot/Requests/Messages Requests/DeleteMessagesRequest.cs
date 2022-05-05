@@ -1,5 +1,5 @@
-﻿using ICQ.Bot.Exceptions;
-using ICQ.Bot.Types;
+﻿using Agent.Bot.Exceptions;
+using Agent.Bot.Types;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Net.Http;
 
-namespace ICQ.Bot.Requests
+namespace Agent.Bot.Requests
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class DeleteMessagesRequest : RequestBase<ActionResponse>

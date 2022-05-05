@@ -1,9 +1,9 @@
-using ICQ.Bot.Types;
+using Agent.Bot.Types;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ICQ.Bot.Args
+namespace Agent.Bot.Args
 {
     public class MessageEventArgs : EventArgs
     {

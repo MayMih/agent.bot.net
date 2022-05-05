@@ -1,9 +1,9 @@
-﻿using ICQ.Bot.Types.InputFiles;
+﻿using Agent.Bot.Types.InputFiles;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.IO;
 
-namespace ICQ.Bot.Types
+namespace Agent.Bot.Types
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class InputMedia : InputOnlineFile

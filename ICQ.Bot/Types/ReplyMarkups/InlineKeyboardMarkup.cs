@@ -3,7 +3,7 @@ using Newtonsoft.Json.Serialization;
 using System;
 using System.Collections.Generic;
 
-namespace ICQ.Bot.Types.ReplyMarkups
+namespace Agent.Bot.Types.ReplyMarkups
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class InlineKeyboardMarkup : IReplyMarkup

@@ -1,6 +1,6 @@
-﻿using ICQ.Bot.Types;
+﻿using Agent.Bot.Types;
 
-namespace ICQ.Bot.Requests.Abstractions
+namespace Agent.Bot.Requests.Abstractions
 {
     public interface IChatMessage
     {

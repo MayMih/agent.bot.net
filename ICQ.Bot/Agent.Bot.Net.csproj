@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Unofficial lightweight HTTP-based interface created for developers who wish to build ICQ (Mail.Agent / VK Teams) bots.
+
+P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's ICQ bot, consider install it instead, please.</Description>
+    <Copyright>Copyright © Mikhail Mayurov 2022</Copyright>
+    <Version>1.4.9-beta</Version>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MayMih/agent.bot.net</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru agent;vk teams;agent bot;</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>agent.bot.net</PackageId>
+    <Authors>Idan Rubin, Mikhail Mayurov</Authors>
+    <Product>Agent.Bot</Product>
+    <PackageReleaseNotes>* Fix file receive bug</PackageReleaseNotes>
+    <Company>Mikhail Mayurov</Company>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>1.4.9.0</AssemblyVersion>
+    <FileVersion>1.4.9.0</FileVersion>
+    <PackageIcon>magent_1.png</PackageIcon>
+    <PackageIconUrl />
+    <RootNamespace>Agent.Bot</RootNamespace>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\magent_1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

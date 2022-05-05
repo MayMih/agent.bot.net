@@ -1,10 +1,10 @@
-﻿using ICQ.Bot.Types;
+﻿using Agent.Bot.Types;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Collections.Specialized;
 using System.Net.Http;
 
-namespace ICQ.Bot.Requests
+namespace Agent.Bot.Requests
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public class GetChatAdministratorsRequest : RequestBase<ChatAdmins>

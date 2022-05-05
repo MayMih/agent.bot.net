@@ -1,4 +1,4 @@
-﻿namespace ICQ.Bot.Types.ReplyMarkups
+﻿namespace Agent.Bot.Types.ReplyMarkups
 {
     public interface IReplyMarkup
     {

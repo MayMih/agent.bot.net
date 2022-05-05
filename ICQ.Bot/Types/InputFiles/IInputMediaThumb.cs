@@ -1,4 +1,4 @@
-﻿namespace ICQ.Bot.Types
+﻿namespace Agent.Bot.Types
 {
     public interface IInputMediaThumb
     {

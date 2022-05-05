@@ -1,4 +1,4 @@
-﻿using ICQ.Bot.Requests.Abstractions;
+﻿using Agent.Bot.Requests.Abstractions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Collections.Specialized;
@@ -7,7 +7,7 @@ using System.Net.Http;
 using System.Text;
 using System.Web;
 
-namespace ICQ.Bot.Requests
+namespace Agent.Bot.Requests
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     public abstract class RequestBase<TResponse> : IRequest<TResponse>

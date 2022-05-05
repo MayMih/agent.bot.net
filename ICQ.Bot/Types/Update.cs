@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Serialization;
 using System;
 
-namespace ICQ.Bot.Types
+namespace Agent.Bot.Types
 {
     public enum UpdateType
     {

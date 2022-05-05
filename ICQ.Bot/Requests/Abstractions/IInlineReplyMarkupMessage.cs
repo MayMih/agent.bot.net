@@ -1,6 +1,6 @@
-﻿using ICQ.Bot.Types.ReplyMarkups;
+﻿using Agent.Bot.Types.ReplyMarkups;
 
-namespace ICQ.Bot.Requests.Abstractions
+namespace Agent.Bot.Requests.Abstractions
 {
     public interface IInlineReplyMarkupMessage : IReplyMarkupMessage<InlineKeyboardMarkup>
     {

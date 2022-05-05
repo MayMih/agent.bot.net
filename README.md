@@ -1,13 +1,15 @@
-[![package](https://img.shields.io/badge/ICQ.Bot-v1.4.8-blue)](https://www.nuget.org/packages/ICQ.Bot)
+[![package](https://img.shields.io/badge/Agent.Bot-v1.4.8-blue)](https://www.nuget.org/packages/Agent.Bot)
 [![icq chat](https://img.shields.io/badge/Community-Chat-purple)](https://icq.im/bots_dotnet)
-[![license](https://img.shields.io/badge/license-MIT-orange)](https://github.com/idan-rubin/icq.bot.net/blob/master/LICENSE)
+[![license](https://img.shields.io/badge/license-MIT-orange)](https://github.com/idan-rubin/Agent.Bot.net/blob/master/LICENSE)
 [![Bot API Version](https://img.shields.io/badge/Bot%20API%20Version-11.05.2021-ff69b4)](https://agent.mail.ru/botapi/?lang=en#/self/get_self_get)
 
-# icq.bot.net
+# agent.bot.net
 
-Lightweight, HTTP-Based C# implementation for [ICQ Bot APIs](https://icq.com/botapi/) (also known as [Mail.ru Agent bot API](https://agent.mail.ru/botapi/?lang=ru) / [VK Teams](https://help.mail.ru/biz/myteam) bot API).
+Unofficial lightweight, HTTP-Based C# implementation for [ICQ Bot APIs](https://icq.com/botapi/) (also known as [Mail.ru Agent bot API](https://agent.mail.ru/botapi/?lang=ru) / [VK Teams](https://help.mail.ru/biz/myteam) bot API).
 
 No Microsoft proprietary mambo jumbo needed! Built on the goodness of .Net Standard 2.0 and Newtonsoft.Json
+
+P.S. This is an auxiliary fork (made mainly for learning purposes) of the [Idan Rubin]'s [ICQ bot], consider install it instead, please.
 
 ## What's in it for me?
 With this package you can:
@@ -15,16 +17,17 @@ With this package you can:
 * Send, Edit and Delete Text Messages
 * Send Inline Buttons with Text Messages
 * Send Files (supports image and video)
+* Receive Files of any Type
 
 ## How do I get it?
-NuGet package is avaiable at [nuget.org]
+NuGet package is available at [nuget.org]
 
 ## How do I ramp up?
 Usage is similar to the excellent .Net [Telegram.Bot] project.
 
 ## Simple Echo Bot
 ```csharp
-using ICQ.Bot.Args;
+using Agent.Bot.Args;
 using System;
 
 private readonly static IICQBotClient bot = new ICQBotClient("BOT_ID_FROM_ICQ_METABOT");
@@ -49,10 +52,12 @@ private static void BotOnMessageReceived(object sender, MessageEventArgs message
 ```
 
 ## Simple Translator Bot
-Check out a simple English/Russian translator bot: [ICQTranslatorBot]
+Check out a simple [Idan Rubin]'s English/Russian translator bot: [ICQTranslatorBot]
 
 Let's make .Net the #1 client for ICQ bots!
 
-[nuget.org]: https://www.nuget.org/packages/ICQ.Bot
+[Idan Rubin]: https://github.com/idan-rubin
+[ICQ bot]: https://github.com/idan-rubin/ICQ.Bot.net
+[nuget.org]: https://www.nuget.org/packages/Agent.Bot
 [Telegram.Bot]: https://github.com/TelegramBots/Telegram.Bot
 [ICQTranslatorBot]: https://github.com/idan-rubin/ICQTranslatorBot

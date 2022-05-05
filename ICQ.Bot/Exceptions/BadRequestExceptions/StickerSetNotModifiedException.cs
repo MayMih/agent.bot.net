@@ -1,4 +1,4 @@
-﻿namespace ICQ.Bot.Exceptions
+﻿namespace Agent.Bot.Exceptions
 {
     public class StickerSetNotModifiedException : BadRequestException
     {

@@ -1,10 +1,10 @@
 using System.IO;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
-using ICQ.Bot.Converters;
-using ICQ.Bot.Types.Enums;
+using Agent.Bot.Converters;
+using Agent.Bot.Types.Enums;
 
-namespace ICQ.Bot.Types.InputFiles
+namespace Agent.Bot.Types.InputFiles
 {
     [JsonObject(MemberSerialization.OptIn, NamingStrategyType = typeof(CamelCaseNamingStrategy))]
     [JsonConverter(typeof(InputFileConverter))]

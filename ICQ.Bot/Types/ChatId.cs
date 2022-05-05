@@ -1,8 +1,8 @@
 ﻿using Newtonsoft.Json;
-using ICQ.Bot.Converters;
+using Agent.Bot.Converters;
 using System.Web;
 
-namespace ICQ.Bot.Types
+namespace Agent.Bot.Types
 {
     [JsonConverter(typeof(ChatIdConverter))]
     public class ChatId

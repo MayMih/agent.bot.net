@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 
-namespace ICQ.Bot.Args
+namespace Agent.Bot.Args
 {
     public class ApiResponseEventArgs
     {

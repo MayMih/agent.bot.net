@@ -2,7 +2,7 @@
 using Newtonsoft.Json.Converters;
 using System.Runtime.Serialization;
 
-namespace ICQ.Bot.Types.Enums
+namespace Agent.Bot.Types.Enums
 {
     [JsonConverter(typeof(StringEnumConverter), true)]
     public enum UpdateType

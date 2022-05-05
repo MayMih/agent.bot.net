@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 
-namespace ICQ.Bot.Helpers
+namespace Agent.Bot.Helpers
 {
     public static class Extensions
     {
@@ -23,7 +23,7 @@ namespace ICQ.Bot.Helpers
                 contentDisposition = $@"{contentDisposition}; fileName=""{fileName}""";
             }
 
-            //https://github.com/idan-rubin/icq.bot.net/issues/1
+            //https://github.com/idan-rubin/Agent.Bot.net/issues/1
             content.Position = 0;
             HttpContent mediaPartContent = new StreamContent(content)
             {
