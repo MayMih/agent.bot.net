@@ -8,6 +8,7 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <Copyright>Copyright © Mikhail Mayurov 2022</Copyright>
     <Version>1.4.9-beta</Version>
     <PackageProjectUrl></PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryUrl>https://github.com/MayMih/agent.bot.net</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru-agent;vk-teams;agent-bot;</PackageTags>

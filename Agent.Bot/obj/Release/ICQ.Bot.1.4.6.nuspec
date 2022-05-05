@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ICQ.Bot</id>
+    <version>1.4.6</version>
+    <authors>Idan Rubin</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>HTTP-based interface created for developers who wish to build ICQ bots.</description>
+    <copyright>Copyright © Idan Rubin 2020</copyright>
+    <tags>icq bot chatbot bot-api icq-bot</tags>
+    <repository type="github" url="https://github.com/idan-rubin/icq.bot" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Projects\Samples\CSharp\icq.bot.net\ICQ.Bot\bin\Release\netstandard2.0\ICQ.Bot.Net.dll" target="lib\netstandard2.0\ICQ.Bot.Net.dll" />
+  </files>
+</package>

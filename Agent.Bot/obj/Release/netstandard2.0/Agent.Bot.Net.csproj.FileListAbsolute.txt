@@ -1,0 +1,11 @@
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\bin\Release\netstandard2.0\Agent.Bot.Net.deps.json
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\bin\Release\netstandard2.0\Agent.Bot.Net.dll
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\bin\Release\netstandard2.0\Agent.Bot.Net.pdb
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.AssemblyInfoInputs.cache
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.AssemblyInfo.cs
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.csproj.CoreCompileInputs.cache
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.sourcelink.json
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.dll
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.pdb
+D:\Projects\Samples\CSharp\agent.bot.net\master\ICQ.Bot\obj\Release\netstandard2.0\Agent.Bot.Net.csproj.AssemblyReference.cache
