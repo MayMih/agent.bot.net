@@ -6,7 +6,7 @@
 
 P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's ICQ bot, consider install it instead, please.</Description>
     <Copyright>Copyright © Mikhail Mayurov 2022</Copyright>
-    <Version>1.4.9-beta</Version>
+    <Version>1.4.9-rc</Version>
     <PackageProjectUrl></PackageProjectUrl>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryUrl>https://github.com/MayMih/agent.bot.net</RepositoryUrl>
@@ -20,8 +20,8 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <PackageReleaseNotes>* Fix file receive bug</PackageReleaseNotes>
     <Company>Mikhail Mayurov</Company>
     <NeutralLanguage>en</NeutralLanguage>
-    <AssemblyVersion>1.4.9.0</AssemblyVersion>
-    <FileVersion>1.4.9.0</FileVersion>
+    <AssemblyVersion>1.4.9.1</AssemblyVersion>
+    <FileVersion>1.4.9.1</FileVersion>
     <PackageIcon>magent_1.png</PackageIcon>
     <PackageIconUrl />
     <RootNamespace>Agent.Bot</RootNamespace>
