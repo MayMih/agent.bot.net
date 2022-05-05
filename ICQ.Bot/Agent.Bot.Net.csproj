@@ -10,7 +10,7 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <PackageProjectUrl></PackageProjectUrl>
     <RepositoryUrl>https://github.com/MayMih/agent.bot.net</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru agent;vk teams;agent bot;</PackageTags>
+    <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru-agent;vk-teams;agent-bot;</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>magent.bot.net</PackageId>
