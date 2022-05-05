@@ -4,4 +4,5 @@
 
 /Agent.Bot/bin
 /Agent.Bot/obj
+/Agent.Bot/obj/Release
 /.vs
