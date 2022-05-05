@@ -11,6 +11,8 @@ No Microsoft proprietary mambo jumbo needed! Built on the goodness of .Net Stand
 
 P.S. This is an auxiliary fork (made mainly for learning purposes) of the [Idan Rubin]'s [ICQ bot], consider install it instead, please.
 
+P.P.S. Nuget-Package supports downloadable Debug symbols via [Source Link] (https://github.com/dotnet/sourcelink).
+
 ## What's in it for me?
 With this package you can:
 * Respond to Bot Events
