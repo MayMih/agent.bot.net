@@ -30,6 +30,8 @@ namespace Agent.Bot.Args
                 }
 
                 ForwardedMessages = new List<Message>();
+
+
                 if ((update.Payload.Parts?.Count() ?? 0) != 0)
                 {
                     foreach (var part in update.Payload.Parts)
@@ -45,6 +47,12 @@ namespace Agent.Bot.Args
                                 Message.Caption = part.Payload.Caption;
                                 Message.FileId = part.Payload.FileId;
                                 Message.FileType = part.Type;
+
+                                if (Message.Documents == null)
+                                {
+                                    Message.Documents = new List<Document>();
+                                }
+                                Message.Documents.Add(new Document(Message.Caption, Message.FileId, Message.FileType)); 
                             }
                         }
                     }
