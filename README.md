@@ -5,13 +5,13 @@
 
 # agent.bot.net
 
-Unofficial lightweight, HTTP-Based C# implementation for [ICQ Bot APIs](https://icq.com/botapi/) (also known as [Mail.ru Agent bot API](https://agent.mail.ru/botapi/?lang=ru) / [VK Teams](https://help.mail.ru/biz/myteam) bot API).
+Unofficial lightweight, HTTP-Based C# implementation for [ICQ Bot APIs](https://icq.com/botapi/) (also known as [Mail.ru Agent bot API](https://agent.mail.ru/botapi/?lang=ru) / [VK Teams](https://help.mail.ru/biz/myteam) bot [API](https://teams.vk.com/botapi/)).
 
 No Microsoft proprietary mambo jumbo needed! Built on the goodness of .Net Standard 2.0 and Newtonsoft.Json
 
 P.S. This is an auxiliary fork (made mainly for learning purposes) of the [Idan Rubin]'s [ICQ bot], consider install it instead, please.
 
-P.P.S. Nuget-Package supports downloadable Debug symbols via [Source Link](https://github.com/dotnet/sourcelink).
+P.P.S. Nuget Package supports downloadable Debug symbols via [Source Link](https://github.com/dotnet/sourcelink).
 
 ## What's in it for me?
 With this package you can:
