@@ -11,13 +11,13 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <RepositoryUrl>https://github.com/MayMih/agent.bot.net</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
-    <PackageTags>icq;bot;chatbot;bot-api;icq-bot;mail.ru-agent;vk-teams;agent-bot;</PackageTags>
+    <PackageTags>icq;bot;vk-workspace;bot-api;icq-bot;mail.ru-agent;vk-teams;agent-bot;</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>magent.bot.net</PackageId>
     <Authors>Idan Rubin, Mikhail Mayurov</Authors>
     <Product>Agent.Bot</Product>
-    <PackageReleaseNotes>* Fix file receive bug</PackageReleaseNotes>
+    <PackageReleaseNotes>* Fix multiple file (file group) receive.</PackageReleaseNotes>
     <Company>Mikhail Mayurov</Company>
     <NeutralLanguage>en</NeutralLanguage>
     <AssemblyVersion>1.5.0.0</AssemblyVersion>
@@ -27,6 +27,7 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <RootNamespace>Agent.Bot</RootNamespace>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -41,6 +42,10 @@ P.S. This is an auxiliary fork (made for learning purposes) of the Idan Rubin's 
     <None Include="..\magent_1.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
